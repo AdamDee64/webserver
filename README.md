@@ -1,4 +1,4 @@
-<b>This is a simple website template using the Bun runtime.</b> https://bun.sh/ <br>
+<b>This is a simple website template using the Bun javascript runtime.</b> https://bun.sh/ <br>
 
 No dependencies (so far), no NPM modules, just good old fashioned HTML, JS, CSS and images<br>
 

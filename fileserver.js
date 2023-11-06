@@ -35,7 +35,7 @@ const requestedGIF = (filename) => {
 
 const respond = (url) => {
     // let query = url.match(/(\?.*)/) // I doubt I will ever handle query on my personal website but I can if I need to.
-console.log(url)
+    // console.log(url) // debugging
     if(url.endsWith("/")){
         return Bun.file("./views/index.html", { type: "text/html" })
     }
@@ -45,7 +45,7 @@ console.log(url)
     }
 
     const requestedFile = url.replace(/.+(?=\/)/, "")
-    console.log(requestedFile)
+    // console.log(requestedFile) // debugging
     const ext = url.match(/\.\w+$/)
 
     if(ext) {
