@@ -10,7 +10,7 @@ index.js and fileserver.js run from the root directory<br>
 
 /public/img holds all image files<br>
 
-/public/js holds all javascript files<br>
+/public/js holds all <b>client side</b> javascript files<br>
 
 /public/css holds all css files<br>
 
